@@ -116,7 +116,7 @@ form{
     background-color: azure;
 }
 
-input[type="search"]{
+input[type="text"]{
     border: none;
     background: transparent;
     padding: 7px;
@@ -126,7 +126,7 @@ input[type="search"]{
     outline: none;
 }
 
-input[type="search"] ::placeholder{
+input[type="text"] ::placeholder{
     color: #848484;
 }
 
