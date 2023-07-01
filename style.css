@@ -138,12 +138,6 @@ justify-content: center;
     background-color: rgb(255, 255, 255);
   }
 
-  .icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   svg{
     width: 50%;
   }
