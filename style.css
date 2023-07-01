@@ -75,7 +75,7 @@ a{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin-top: 70px;
+    margin-top: 120px;
 }
 
 .assets{
@@ -136,6 +136,7 @@ justify-content: center;
     border: none;
     outline: none;
     background-color: rgb(255, 255, 255);
+    height: 100%;
   }
 
   .icon {
@@ -159,6 +160,7 @@ justify-content: center;
 @media screen  and (max-width:700px){
     .assets h1{
         font-size: 80px;
+        font-weight: 400;
     }
 
     .register{
@@ -175,6 +177,6 @@ justify-content: center;
         font-size: 15px;
        
     }
-    svg{width: 30%;}
+    svg{width: 10%;}
     
 }
