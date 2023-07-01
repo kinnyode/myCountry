@@ -1,0 +1,236 @@
+*,body{
+    padding: 0;
+    font-family: myfont;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Nohemi-Regular-BF6438cc58b98fc.otf);
+}
+
+
+.header{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.logo a{
+    color: black;
+}
+
+.login{
+    display: flex;
+    width: 100px;
+    padding: 15px;
+    justify-content: center;
+    border-radius: 300px;
+    border: none;
+    transition: 0.7s;
+    background-color: #00145C;
+    color: white;
+    border: 0.2px solid rgb(0, 0, 0);
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.body{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+}
+
+
+.twosections{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin-top: 40px;
+}
+
+.sectionone{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.sectiontwo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.sectionone img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 30px;
+    object-position: top;
+}
+
+
+
+
+.assets {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        gap: 10px;
+        height: 90%;
+ }
+
+
+input{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    box-shadow: 0 2px 4px 0 rgba(109, 109, 109, 0.2);
+}
+
+
+select{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(196, 196, 196); 
+    font-size: 14px;
+}
+
+
+
+
+
+.twoinputs{
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.twoinputs p{
+    font-weight: 100;
+}
+.checkbox{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.signup{
+    display: flex;
+    width: 120px;
+    padding: 12px;
+    justify-content: center;
+    border-radius: 300px;
+    border: none;
+    transition: 0.7s;
+    background-color: #000000;
+    color: white;
+    border: 0.2px solid rgb(0, 0, 0);
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.signinnow{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    text-decoration: none;
+color: black;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.01em;
+margin-top: 15px;
+border-radius: 30px;
+box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+padding: 8px;
+gap: 10px;
+
+}
+
+.signinnow img{
+    width: 9%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.signuplink {
+    display: flex;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:767px) {
+    .sectionone{
+        display: none;
+    }
+
+    h1 {
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .signintext {
+        font-size: 14px;
+    }
+
+    .twoinputs p {
+        font-weight: 100;
+        font-size: 11px;
+    }
+
+    .twoinputs{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .checkbox p{
+        font-weight: 200;
+    }
+
+    .signup{
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    .assets{
+        margin-top: 50px;
+    }
+}
+
+@media screen  and (max-width:280px){
+    .login{
+        padding: 7px;
+    }
+}
