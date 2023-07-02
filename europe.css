@@ -16,7 +16,7 @@ a{
 
 .header{
     padding: 10px;
-    background-color:rgb(255 255 255 / 71%);
+    background-color:rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     width: 100%;
     position: fixed;
@@ -200,7 +200,7 @@ padding: 5px;
 
 .dyksection{
     width: 100%;
-    height: 25vh;
+    height: 40vh;
     display: flex;
     background-color: #04031b;
     justify-content: center;
@@ -220,20 +220,19 @@ padding: 5px;
 .flexcontainer{
     display: flex;
     width: 100%;
-    height: 50vh;
     
 }
 
 .flexbox{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     width: 100%;
 padding: 5px;
 }
 
 .fbox1{
 width: 100%;
-height: 100%;
+height: 300px;
 display: flex;
 background-image:url(abstract-background-with-union-jack-flag.jpg);
 background-size: cover;
@@ -244,13 +243,10 @@ align-items: center;
 color: white;
 }
 
-.fbox h1{
-
-}
 
 .fbox2{
     width: 100%;
-    height: 100%;
+    height: 300px;
     display: flex;
     background-image:url(pexels-taryn-elliott-3889927.jpg) ;
     background-size: cover;
@@ -265,7 +261,7 @@ color: white;
 
     .fbox3{
         width: 100%;
-        height: 100%;
+        height:300px;
         display: flex;
         background-image:url(StockSnap_MFFX4ZPUMM\ 3.png);
         background-size: cover;
@@ -279,7 +275,7 @@ color: white;
 
         .fbox4{
             width: 100%;
-            height: 100%;
+            height: 300px;
             display: flex;
             background-image:url(pexels-josh-sorenson-570987.jpg);
             background-size: cover;
@@ -292,7 +288,7 @@ color: white;
 
             .fbox5{
                 width: 100%;
-                height: 100%;
+                height: 300px;
                 display: flex;
                 background-image:url(breathtaking-shot-colosseum-amphitheatre-located-rome-italy.jpg);
                 background-size: cover;
@@ -305,7 +301,7 @@ color: white;
 
                 .fbox6{
                     width: 100%;
-                    height: 100%;
+                    height: 300px;
                     display: flex;
                     background-image:url(czech-republic-flag-wrinkled-dark-background-3d-render.jpg);
                     background-size: cover;
@@ -318,7 +314,7 @@ color: white;
 
                     .fbox7{
                         width: 100%;
-                        height: 100%;
+                        height: 300px;
                         display: flex;
                         background-image:url(flag-spain.jpg);
                         background-size: cover;
@@ -331,7 +327,7 @@ color: white;
 
                         .fbox8{
                             width: 100%;
-                            height: 100%;
+                            height: 300px;
                             display: flex;
                             background-image:url(flags-france.jpg);
                             background-size: cover;
@@ -345,7 +341,7 @@ color: white;
 
                             .fbox9{
                                 width: 100%;
-                                height: 100%;
+                                height: 300px;
                                 display: flex;
                                 background-image:url(david-marcu-78A265wPiO4-unsplash.jpg);
                                 background-size: cover;
@@ -379,9 +375,12 @@ color: white;
 
 .flexbox a{
     width: 100%;
-    height: 50vh;
+    height: 100%;
     padding: 5px;
 }
+
+
+
 
 
 @media screen  and (max-width:912px){
@@ -437,6 +436,6 @@ h2{
 
 .flexbox a{
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 }
