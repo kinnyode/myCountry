@@ -16,7 +16,7 @@ a{
 
 .header{
     padding: 10px;
-    background-color:rgb(255 255 255 / 85%);
+    background-color:rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     width: 100%;
     position: fixed;
@@ -216,18 +216,19 @@ padding: 5px;
       opacity: 0;
     }
     100% {
-      transform: translateY(0);
+      transform: translateY(1px);
       opacity: 1;
     }
   }
   @media (prefers-reduced-motion: no-preference) {
     .dykassets-animation {
-      animation: enter-animation 0.8s 1;
+      animation: enter-animation 0.5s 1;
     }
     .flexbox-animation {
-        animation: enter-animation 0.8s 1;
+        animation: enter-animation 0.5s 1;
       }
   }
+
 
 .dykassets{
     display: flex;
@@ -295,6 +296,7 @@ color: white;
 
 
         .fbox4{
+          
             width: 100%;
             height: 300px;
             display: flex;
@@ -334,6 +336,7 @@ color: white;
                     }
 
                     .fbox7{
+                       
                         width: 100%;
                         height: 300px;
                         display: flex;
@@ -398,6 +401,7 @@ color: white;
     width: 100%;
     height: 100%;
     padding: 5px;
+    
 }
 
 
@@ -473,6 +477,10 @@ h2{
 .flexbox a{
     width: 100%;
     height: 100%;
+    padding: 0px;
+}
+.fbox4 ,.fbox7{
+    margin-top: 10px;
 }
 
 }

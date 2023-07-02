@@ -19,7 +19,7 @@ a{
 
 .header{
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.879);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     width: 100%;
     position: fixed;
@@ -250,7 +250,7 @@ gap: 30px;
 
     .login{
         font-size: 15px;
-        padding: 13px;
+        padding: 11px;
     }
 
     .logo p{
@@ -263,6 +263,10 @@ input[type="text"]{
     font-size: 16px;
     background-color: white;
     
+}
+
+.header{
+    padding: 8px;
 }
 
 .continent1,.continent2,.continent3{
