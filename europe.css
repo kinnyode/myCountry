@@ -217,6 +217,25 @@ padding: 5px;
     gap: 20px;
 }
 
+@keyframes enter-animation {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .dykassets-animation {
+      animation: enter-animation 0.8s 1;
+    }
+    .flexbox-animation {
+        animation: enter-animation 0.8s 1;
+      }
+  }
+
 .flexcontainer{
     display: flex;
     width: 100%;
