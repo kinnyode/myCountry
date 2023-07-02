@@ -13,6 +13,9 @@ a{
     src: url(Nohemi-Regular-BF6438cc58b98fc.otf);
 }
 
+.logo a {
+    color: black;
+}
 
 .header{
     padding: 10px;
