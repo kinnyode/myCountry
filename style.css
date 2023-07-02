@@ -276,9 +276,8 @@ input[type="text"]{
     flex-direction: column;
 }
 
-.continent1, .continent2 , .continent3 h1{
-    color: white;
-    font-weight: 100;
+h1{
+    font-weight: 200
 }
     
 }
