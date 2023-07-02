@@ -90,6 +90,7 @@ font-weight: 300;
     width: 100%;
 gap: 30px;
 overflow: hidden;
+padding: 5px;
 }
 
 .box1{
@@ -207,6 +208,7 @@ overflow: hidden;
 
 .threeboxes{
     flex-direction: column;
+    padding: 0px;
 }
 
 h1{
