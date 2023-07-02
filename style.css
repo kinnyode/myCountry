@@ -106,24 +106,24 @@ justify-content: center;
 }
 
 form{
-    color: #555;
+    color: #000000;
     display: flex;
     padding: 4px;
-    border: 1px solid currentColor;
+    border: none;
     border-radius: 5px;
     width: fit-content;
     gap: 10px;
     align-self: center;
     margin-top: 60px;
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
 }
 
 input[type="text"]{
     border: none;
-    background: transparent;
+    background: white;
     padding: 7px;
     font-size: 14px;
-    color: inherit;
+    color: black;
     border: 1px solid transparent;
     outline: none;
 }
@@ -143,8 +143,14 @@ cursor: pointer;
 opacity: 0.8;
 background-color: white;
 color: black;
-
 }
+select :focus,
+textarea :focus,
+input :focus{
+    font-size: 16px;
+    background-color: white;
+}
+
 
 .search img{
 width: 50%;
@@ -169,5 +175,12 @@ background: white;
     .logo p{
         font-size: 15px;
     }
+
+    select,
+textarea,
+input{
+    font-size: 16px;
+    background-color: white;
+}
     
 }
