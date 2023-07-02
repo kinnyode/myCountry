@@ -57,7 +57,7 @@ a{
     display: flex;
     min-height: 100vh;
     width: 100%;
-    background-image:url(sphere-with-trees\ 1.png);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -89,7 +89,7 @@ font-weight: 300;
     display: flex;
     width: 100%;
 gap: 30px;
-padding: 20px;
+padding: 5px;
 overflow: hidden;
 }
 
@@ -107,7 +107,20 @@ overflow: hidden;
     background-position: center;
    
 }
+.boxtext{
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  
+}
+.boxtext p{
+    color: rgb(0, 113, 227);
+}
 
+.box2 p, .box3 p{
+    color: rgb(0, 113, 227);
+}
 .threeboxes :hover{
     transform: scale(1.03);
     overflow: hidden;
@@ -143,6 +156,8 @@ overflow: hidden;
     background-repeat: no-repeat;
     background-position: bottom;
     color: white;
+    flex-direction: column;
+    gap: 30px;
 }
 
 
@@ -160,6 +175,8 @@ overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
+    flex-direction: column;
+    gap: 30px;
 }
 .dyksection{
     display: flex;
@@ -191,7 +208,6 @@ overflow: hidden;
 
 .threeboxes{
     flex-direction: column;
-    padding: 10px;
 }
 
 h1{
@@ -202,7 +218,7 @@ h3{
 }
     
 .box1, .box2, .box3{
-    height: 80vh;
+    height: 70vh;
 }
 
 .box2, .box3{
