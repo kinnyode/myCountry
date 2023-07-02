@@ -16,7 +16,7 @@ a{
 
 .header{
     padding: 10px;
-    background-color:rgb(255 255 255 / 71%);
+    background-color:rgb(255 255 255 / 85%);
     color: rgb(0, 0, 0);
     width: 100%;
     position: fixed;
@@ -191,6 +191,12 @@ padding: 5px;
     color: white;
 }
 
+.flexbox :hover{
+    transform: scale(1.01);
+    overflow: hidden;
+    transition: 0.6s;
+
+}
 
 .dyksection{
     width: 100%;
@@ -228,7 +234,7 @@ padding: 5px;
 width: 100%;
 height: 300px;
 display: flex;
-background-image:url(abstract-background-with-union-jack-flag.jpg);
+background-image:url(Asia/china-flag-wrinkled-dark-background-3d-render.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -242,7 +248,7 @@ color: white;
     width: 100%;
     height: 300px;
     display: flex;
-    background-image:url(pexels-taryn-elliott-3889927.jpg) ;
+    background-image:url(Asia/neom-_TFgiFZyH6M-unsplash.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -257,7 +263,7 @@ color: white;
         width: 100%;
         height:300px;
         display: flex;
-        background-image:url(StockSnap_MFFX4ZPUMM\ 3.png);
+        background-image:url(Asia/tran-phu-yPP08FAft7I-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -271,7 +277,7 @@ color: white;
             width: 100%;
             height: 300px;
             display: flex;
-            background-image:url(pexels-josh-sorenson-570987.jpg);
+            background-image:url(Asia/debashis-rc-biswas-dyPFnxxUhYk-unsplash.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -284,7 +290,7 @@ color: white;
                 width: 100%;
                 height: 300px;
                 display: flex;
-                background-image:url(breathtaking-shot-colosseum-amphitheatre-located-rome-italy.jpg);
+                background-image:url(Asia/thailand-flag-wrinkled-dark-background-3d-render.jpg);
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -297,7 +303,7 @@ color: white;
                     width: 100%;
                     height: 300px;
                     display: flex;
-                    background-image:url(czech-republic-flag-wrinkled-dark-background-3d-render.jpg);
+                    background-image:url(Asia/ammie-ngo-vcu-OZBxxRk-unsplash.jpg);
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center;
@@ -310,10 +316,10 @@ color: white;
                         width: 100%;
                         height: 300px;
                         display: flex;
-                        background-image:url(flag-spain.jpg);
+                        background-image:url(Asia/pexels-simon-sto-fpv-3544415.jpg);
                         background-size: cover;
                         background-repeat: no-repeat;
-                        background-position: center;
+                        background-position: bottom;
                         justify-content: center;
                         align-items: center;
                         color: white;
@@ -323,7 +329,7 @@ color: white;
                             width: 100%;
                             height: 300px;
                             display: flex;
-                            background-image:url(flags-france.jpg);
+                            background-image:url(Asia/pexels-kyle-kroeger-1727627.jpg);
                             background-size: cover;
                             background-repeat: no-repeat;
                             background-position: center;
@@ -337,7 +343,7 @@ color: white;
                                 width: 100%;
                                 height: 300px;
                                 display: flex;
-                                background-image:url(david-marcu-78A265wPiO4-unsplash.jpg);
+                                background-image:url(Asia/pexels-cottonbro-studio-4033852.jpg);
                                 background-size: cover;
                                 background-repeat: no-repeat;
                                 background-position: center;
@@ -428,6 +434,28 @@ h3{
 }
 h2{
     font-weight: 300;
+}
+
+.dykassets h2{
+    font-size: 14px;
+}
+
+.flexbox{
+    flex-direction: column;
+}
+
+.flexbox{
+    padding: 0px;
+    overflow: hidden;
+}
+
+.flexcontainer{
+    height: 100vh;
+}
+
+.flexbox a{
+    width: 100%;
+    height: 100%;
 }
 
 }

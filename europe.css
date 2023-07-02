@@ -16,7 +16,7 @@ a{
 
 .header{
     padding: 10px;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255 255 255 / 85%);
     color: rgb(0, 0, 0);
     width: 100%;
     position: fixed;
@@ -205,7 +205,7 @@ padding: 5px;
     background-color: #04031b;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .dykassets{
@@ -417,6 +417,9 @@ h3{
 }
 h2{
     font-weight: 300;
+    font-size: 27px;
+}
+.dykassets h2{
     font-size: 14px;
 }
 
@@ -438,3 +441,4 @@ h2{
     height: 100%;
 }
 }
+
