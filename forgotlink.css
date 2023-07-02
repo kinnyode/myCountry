@@ -1,0 +1,143 @@
+*,body{
+    padding: 0;
+    font-family: myfont;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Nohemi-Regular-BF6438cc58b98fc.otf);
+}
+
+
+.header{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+
+.logo a{
+    color: black;
+}
+
+.login{
+    display: flex;
+    width: 100px;
+    padding: 15px;
+    justify-content: center;
+    border-radius: 300px;
+    border: none;
+    transition: 0.7s;
+    background-color: #00145C;
+    color: white;
+    border: 0.2px solid rgb(0, 0, 0);
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.body{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+}
+
+h1{
+    color: black;
+}
+
+.assets{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    font-weight: 300;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.checkbox{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.checkbox a{
+    text-decoration: underline;
+    color: #00145C;
+}
+
+.assets img{
+    width: 4%;
+}
+
+
+@media screen and (max-width:769px) {
+    .sectionone{
+        display: none;
+    }
+
+    h1 {
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .signintext {
+        font-size: 14px;
+    }
+
+    .twoinputs p {
+        font-weight: 100;
+        font-size: 13px;
+    }
+
+    .twoinputs{
+        width: 100%;
+        gap: 20px;
+    }
+
+    .checkbox p{
+        font-weight: 200;
+    }
+
+    .signup{
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    .assets{
+        margin-top: 50px;
+    }
+}
+
+@media screen  and (max-width:280px){
+    .login{
+        padding: 7px;
+    }
+    h1{
+        font-size: 23px;
+        text-align: center;
+    }
+}
