@@ -192,6 +192,207 @@ padding: 5px;
 }
 
 
+.dyksection{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    background-color: #04031b;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.dykassets{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.flexcontainer{
+    display: flex;
+    width: 100%;
+    
+}
+
+.flexbox{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+padding: 5px;
+}
+
+.fbox1{
+width: 100%;
+height: 300px;
+display: flex;
+background-image:url(abstract-background-with-union-jack-flag.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+
+.fbox2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-image:url(pexels-taryn-elliott-3889927.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    }
+    
+
+
+    .fbox3{
+        width: 100%;
+        height:300px;
+        display: flex;
+        background-image:url(StockSnap_MFFX4ZPUMM\ 3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        }
+
+
+        .fbox4{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            background-image:url(pexels-josh-sorenson-570987.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            }
+
+            .fbox5{
+                width: 100%;
+                height: 300px;
+                display: flex;
+                background-image:url(breathtaking-shot-colosseum-amphitheatre-located-rome-italy.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                }
+
+                .fbox6{
+                    width: 100%;
+                    height: 300px;
+                    display: flex;
+                    background-image:url(czech-republic-flag-wrinkled-dark-background-3d-render.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    }
+
+                    .fbox7{
+                        width: 100%;
+                        height: 300px;
+                        display: flex;
+                        background-image:url(flag-spain.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        }
+
+                        .fbox8{
+                            width: 100%;
+                            height: 300px;
+                            display: flex;
+                            background-image:url(flags-france.jpg);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            justify-content: center;
+                            align-items: center;
+                            color: white;
+                            }
+
+
+                            .fbox9{
+                                width: 100%;
+                                height: 300px;
+                                display: flex;
+                                background-image:url(david-marcu-78A265wPiO4-unsplash.jpg);
+                                background-size: cover;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                justify-content: center;
+                                align-items: center;
+                                color: white;
+                                }
+
+                            .flexbox h1{
+                                font-size: 27px;
+                            }
+
+
+                            .sectiontag{
+                                width: 100%;
+                                justify-content: center;
+                                align-self: center;
+                                display: flex;
+                                padding: 25px;
+                                margin-top: 20px;
+                            }
+
+
+
+.fbox1 :hover , .fbox2 :hover, .fbox3 :hover, .fbox4 :hover, .fbox5 :hover, .fbox6 :hover,.fbox7 :hover, .fbox8 :hover, .fbox9 :hover{
+        transform: none;
+        overflow: hidden;
+}
+
+.flexbox a{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen  and (max-width:912px){
 
