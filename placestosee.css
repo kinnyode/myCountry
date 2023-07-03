@@ -61,7 +61,7 @@ a{
     background-size: cover;
     background-position: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 
 .assets{
