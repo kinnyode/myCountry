@@ -362,8 +362,8 @@ gap: 30px;
 
 @media screen  and (max-width:700px){
     .assets h1{
-        font-size: 80px;
-        font-weight: 400;
+        font-size: 85px;
+        font-weight: 500;
     }
 
     .register{
