@@ -172,6 +172,7 @@ background: white;
     width: 100%;
 flex-direction: column;
     gap: 20px;
+    padding: 5px;
     
 }
 
@@ -230,7 +231,7 @@ gap: 30px;
     width: 100%;
 }
 
-.box1 p, .box2 p, .box3 p{
+.continent1 p, .continent2 p, .continent3 p{
     color: rgb(0, 113, 227);
     
 }
@@ -246,7 +247,7 @@ gap: 30px;
     width: 100%;
     height: 100%;
     gap: 20px;
-    padding: 0px;
+    padding: 5px;
 }
 
 .box1{
@@ -288,7 +289,7 @@ gap: 30px;
     display: flex;
     width: 100%;
     height: 100vh;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .boxasset{
@@ -317,7 +318,7 @@ gap: 30px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .breaksectiontext{
