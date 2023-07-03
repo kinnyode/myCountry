@@ -115,7 +115,7 @@ font-weight: 300;
     background-image: url(Destinations/gloria-villa-GjYw5xyMI3w-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 
@@ -124,7 +124,7 @@ font-weight: 300;
     height: 400px;
     display: flex;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/pexels-sean-valentine-3230122.jpg);
+    background-image: url(Destinations/riccardo-manieri-vrTa4x_qeUA-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -135,10 +135,10 @@ font-weight: 300;
     height: 400px;
     display: flex;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/pexels-sean-valentine-3230122.jpg);
+    background-image: url(Destinations/grand-canyon-nature-footage-arizona-usa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
 
 
@@ -147,7 +147,7 @@ font-weight: 300;
     height: 400px;
     display: flex;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/pexels-sean-valentine-3230122.jpg);
+    background-image: url(Destinations/pexels-k-production-10295906.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -159,10 +159,43 @@ font-weight: 300;
     height: 400px;
     display: flex;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/pexels-sean-valentine-3230122.jpg);
+    background-image: url(Destinations/pyramids\ of\ giza.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+}
+
+.box7{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background-image: url(Destinations/pexels-athena-6580703.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box8{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background-image: url(Destinations/pexels-hugo-sykes-12412165.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box9{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background-image: url(Destinations/pexels-pixabay-64766.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -185,13 +218,94 @@ font-weight: 300;
 .boxasset h1{
     display: flex;
     color: rgb(255, 255, 255);
+    font-size: 23px;
 }
 
 .threeboxes a{
     width: 100%;
 }
+.boxasset p{
+    color: rgb(0, 113, 227);
+}
 
 .box1 p, .box2 p, .box3 p{
     color: rgb(0, 113, 227);
     
+}
+
+
+
+
+
+
+@media screen  and (max-width:912px){
+
+    .login{
+        font-size: 15px;
+        padding: 13px;
+    }
+
+    .logo p{
+        font-size: 15px;
+    }
+
+
+
+.threeboxes{
+    flex-direction: column;
+    padding: 0px;
+}
+
+h1{
+    font-weight: 500;
+}
+h3{
+    font-weight: 100;
+}
+    
+.box1, .box2, .box3{
+    height: 45vh;
+}
+
+.box2, .box3{
+    background-position: center;
+}
+h2{
+    font-weight: 300;
+}
+
+.dykassets h2{
+    font-size: 14px;
+}
+
+.flexbox{
+    flex-direction: column;
+}
+
+.flexbox{
+    padding: 0px;
+    overflow: hidden;
+}
+
+.flexcontainer{
+    height: 100vh;
+}
+
+.flexbox a{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+.fbox4 ,.fbox7{
+    margin-top: 10px;
+}
+.assets h1{
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+}
+.section2{
+    padding: 5px;
+}
+
 }
