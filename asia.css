@@ -3,7 +3,7 @@
     font-family: myfont;
     margin: 0;
     box-sizing: border-box;
-    animation: fadeInAnimation ease 0.5s;
+    animation: fadeInAnimation ease 0.7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
