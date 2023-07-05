@@ -10,14 +10,8 @@ return false;
 }
 else{
 attempt --;// Decrementing by one.
-document.getElementById("results").innerHTML = ("Wrong Password!   You have "+attempt+" attempt(s) left.")  ;
-// Disabling fields after 3 attempts.
-if( attempt == 0){
-document.getElementById("username").disabled = true;
-document.getElementById("password").disabled = true;
-document.getElementById("submit").disabled = true;
-return false;
-}
+document.getElementById("results").innerHTML = ("Invalid username & password.")  ;
+//create popup window after this.
 }
 }
 
