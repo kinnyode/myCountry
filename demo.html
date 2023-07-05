@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic Element Creation</title>
+  </head>
+  <body>
+    <div id="container">
+      <div
+        class="image-element"
+        data-name="Element 5"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1666557106073-356f02a469d4?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1331&amp;q=80');
+        "
+      >
+        <h2>Element 5</h2>
+      </div>
+      <div
+        class="image-element"
+        data-name="Element 3"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1667080319517-dde4e0ee53a0?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1180&amp;q=80');
+        "
+      >
+        <h2>Element 3</h2>
+      </div>
+      <div
+        class="image-element"
+        data-name="Element 1"
+        style="
+          background-image: url('https://plus.unsplash.com/premium_photo-1675705690586-3d35326e4771?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=870&amp;q=80');
+        "
+      >
+        <h2>Element 1</h2>
+      </div>
+    </div>
+    <button id="createButton">Create Element</button>
+    <script>
+      // Sample JSON data
+      var jsonData = [
+        {
+          name: "Element 1",
+          imageUrl:
+            "https://plus.unsplash.com/premium_photo-1675705690586-3d35326e4771?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        },
+        {
+          name: "Element 2",
+          imageUrl:
+            "https://images.unsplash.com/photo-1666557106073-356f02a469d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80",
+        },
+        {
+          name: "Element 3",
+          imageUrl:
+            "https://images.unsplash.com/photo-1667080319517-dde4e0ee53a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1180&q=80",
+        },
+
+        {
+          name: "Element 4",
+          imageUrl:
+            "https://plus.unsplash.com/premium_photo-1675705690586-3d35326e4771?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        },
+        {
+          name: "Element 5",
+          imageUrl:
+            "https://images.unsplash.com/photo-1666557106073-356f02a469d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80",
+        },
+        {
+          name: "Element 6",
+          imageUrl:
+            "https://images.unsplash.com/photo-1667080319517-dde4e0ee53a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1180&q=80",
+        },
+      ];
+
+      // Get references to the button and container
+      var createButton = document.getElementById("createButton");
+      var container = document.getElementById("container");
+
+      // Function to create elements from JSON data
+      function createElements() {
+        var elementsToCreate = 3; // Number of elements to create per click
+
+        for (var i = 0; i < elementsToCreate; i++) {
+          var index = Math.floor(Math.random() * jsonData.length); // Get a random index from JSON data
+          var elementData = jsonData[index];
+
+          var element = document.createElement("div");
+          element.className = "image-element";
+          element.style.backgroundImage = `url(${elementData.imageUrl})`;
+          element.dataset.name = elementData.name;
+
+          var name = document.createElement("h2");
+          name.textContent = elementData.name;
+
+          element.appendChild(name);
+          container.appendChild(element);
+        }
+
+        createButton.style.display = "none"; // Hide the button after displaying the JSON data
+      }
+
+      // Attach click event listener to the button
+      createButton.addEventListener("click", createElements);
+    </script>
+
+    <style>
+      .image-element {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 10px;
+      }
+
+      #container {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+      }
+    </style>
+  </body>
+</html>
