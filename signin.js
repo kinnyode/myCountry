@@ -9,7 +9,7 @@ window.location = "africa.html"; // Redirecting to other page.
 return false;
 }
 else{
-attempt --;// Decrementing by one.
+attempt ;// Decrementing by one.
 document.getElementById("results").innerHTML = ("Invalid username & password.")  ;
 //create popup window after this.
 }
