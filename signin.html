@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="signin.css" />
   </head>
   <body>
+    <script src="signin.js"></script>
     <div class="header">
       <div class="navlinks">
         <div class="logo">
@@ -32,17 +33,17 @@
             <div class="assets">
                 <h1>Welcome Back!</h1>
                 <div class="signuplink">
-                  <a href="" class="signinnow">
+                  <div class="signinnow">
                     <img src="Type=Default.png" alt="" />
                     <div class="signintext">Sign In with Google</div>
-                  </a>
+                    </div>
                 </div>
-    
+                <form id="form_id" method="post" name="myform">
                 <div class="twoinputs">
                  <p> Username or Email</p>
-                  <input type="text" />
+                  <input type="text"  name="username" id="username"/>
                   <p>Password</p>
-                  <input type="password" placeholder="6+ characters" />
+                  <input type="password"  name="password"  placeholder="6+ characters"  id="password"/>
                   <div class="checkbox">
                                 <a href="forgot.html">
                                     <p>Forgot Password?</p>
@@ -50,10 +51,11 @@
                                 </datagrid></p>
                             </div>
                         </div>
-                        <a href="">
-                            <button class="signup" id="active">Log In</button>
-                          </a>
+                        
+                            <button class="signup" value="Login" id="submit"    onclick="validate()"    type="button">Log In</button>
+                          
                 </div>
+                </form>
         </div>
       </div>
     </div>
