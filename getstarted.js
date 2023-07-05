@@ -1,3 +1,6 @@
+function validateform(){  
+    var name=document.myform.username.value;  
+    var password=document.myform.password.value;  
 
 function validate(){
     if ( username == "Login" && password == "mycountry"){
@@ -5,12 +8,14 @@ function validate(){
     window.location = "africa.html"; // Redirecting to other page.
     return false;
     }
-    else{
-    attempt --;// Decrementing by one.
-    document.getElementById("results").innerHTML = ("Invalid username & password.")  ;
-    //create popup window after this.
-    }
-    }
-    
-    
+          else if(password==null || name==""){
+          alert("Please enter a password.");
+          return false;
+      }
+
+    else if(password.length<6){  
+      alert("Password should contain at least 6 characters.");  
+      return false;  
+      }  
+    }  
     
