@@ -242,6 +242,13 @@ cursor: pointer;
         display: none;
     }
 
+
+    div#results {
+        color: red;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
     h1 {
         font-weight: 500;
         font-size: 25px;
