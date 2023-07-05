@@ -38,6 +38,11 @@ form#form_id {
     gap: 20px;
 }
 
+div#results {
+    color: red;
+    font-size: 15px;
+}
+
 
 
 
