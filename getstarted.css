@@ -27,6 +27,38 @@ a{
 }
 
 
+form#form_id {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div#results {
+    color: rgb(235, 0, 0);
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header{
     padding: 10px;
     background-color: rgb(255, 255, 255);
@@ -210,6 +242,12 @@ gap: 10px;
 @media screen and (max-width:767px) {
     .sectionone{
         display: none;
+    }
+
+    div#results {
+        color: red;
+        font-size: 12px;
+        font-weight: 300;
     }
 
     h1 {

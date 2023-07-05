@@ -37,19 +37,19 @@
                     <div class="signintext">Sign Up with Google</div>
                   </a>
                 </div>
-    
+                <form id="form_id" method="post" name="myform">
                 <div class="twoinputs">
                   <p>Full Name</p>
-                  <input type="text" />
+                  <input type="text" name="name" />
                  <p> Username</p>
-                  <input type="text" />
+                  <input type="text"  name="username"/>
                   <p>Email</p>
-                  <input type="email" placeholder="name@example.com" />
+                  <input type="email" placeholder="name@example.com"  />
                   <p>Password</p>
-                  <input type="password" placeholder="6+ characters" />
+                  <input type="password" placeholder="6+ characters " name="password" />
                 <p>  Confirm Password</p>
-                  <input type="password" placeholder="re-enter your password" />
-    
+                  <input type="password" placeholder="re-enter your password" name="Password" />
+                  <div class="output" id="results"></div>
                   <div class="checkbox">
                                 <p> 
                                   
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         
-                            <button class="signup" id="active" type="button">Sign Up</button>
+                            <button class="signup" id="active" type="button" onclick="validateform()">Sign Up</button>
                           
                 </div>
                 </form>
