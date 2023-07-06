@@ -1,19 +1,26 @@
 function validateform(){  
-    var name=document.myform.username.value;  
-    var password=document.myform.password.value;  
+
+    var name=document.myform.name.value;
+    var email= document.myform.email.value;  
+    var password=document.myform.password.value;
+   
      
      if (name==""){  
         document.getElementById("results").innerHTML = ("Please enter your full name & username.")  ;
       return false;  
        }
+  
+    
 
           else if (password==""){
             document.getElementById("results").innerHTML = ("Please enter a password.")  ;
           return false;
       }
 
+      
+
     else if(password.length<6){  
-        document.getElementById("results").innerHTML = ("Password should be greater than six characters.")  ; 
+        document.getElementById("results").innerHTML = ("Password must be greater than six characters.")  ; 
       return false;  
       }  
 
@@ -23,4 +30,6 @@ function validateform(){
         window.location = "africa.html"; // Redirecting to other page.
         return false;
       }
+
+     
     }  
