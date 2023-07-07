@@ -18,7 +18,7 @@ a{
 
 @font-face {
     font-family: myfont;
-    src: url(Nohemi-Regular-BF6438cc58b98fc.otf);
+    src: url(Cygre-Book-BF63eeebf814697.ttf);
 }
 
 .navlinks a {
@@ -366,7 +366,7 @@ gap: 30px;
 
 @media screen  and (max-width:700px){
     .assets h1{
-        font-size: 85px;
+        font-size: 77px;
         font-weight: 500;
     }
 
@@ -413,5 +413,29 @@ h1{
 .threeboxes{
     flex-direction: column;
     padding: 5px;
+}
+.register{
+    width: 140px;
+    padding: 15px;
+}
+
+@media screen  and (max-width:280px){
+
+    .assets h1{
+        font-size: 60px;
+    }
+
+   .continent1 h1, .continent2 h1, .continent3 h1 {
+        color: white;
+        font-size: 30px;
+    }
+
+    .boxasset h1{
+        font-size: 30px;
+    }
+
+    .login{
+        padding: 10px;
+    }
 }
 }

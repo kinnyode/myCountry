@@ -10,7 +10,7 @@ a{
 
 @font-face {
     font-family: myfont;
-    src: url(Nohemi-Regular-BF6438cc58b98fc.otf);
+    src: url(Cygre-Book-BF63eeebf814697.ttf);
 }
 
 .navlinks a {
@@ -240,6 +240,10 @@ font-weight: 300;
 
 @media screen  and (max-width:912px){
 
+
+    .boxasset h1{
+        font-size: 25px;
+    }
     .login{
         font-size: 15px;
         padding: 13px;
