@@ -23,7 +23,7 @@ a{
 
 @font-face {
     font-family: myfont;
-    src: url(Cygre-Book-BF63eeebf814697.ttf);
+    src: url(Nohemi-Regular-BF6438cc58b98fc.otf);
 }
 
 
@@ -79,7 +79,7 @@ div#results {
 .login{
     display: flex;
     width: 100px;
-    padding: 15px;
+    padding: 13px;
     justify-content: center;
     border-radius: 300px;
     border: none;

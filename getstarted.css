@@ -23,7 +23,7 @@ a{
 
 @font-face {
     font-family: myfont;
-    src: url(Cygre-Book-BF63eeebf814697.ttf);
+    src: url(Nohemi-Regular-BF6438cc58b98fc.otf);
 }
 
 
@@ -85,7 +85,7 @@ div#results {
 .login{
     display: flex;
     width: 100px;
-    padding: 10px;
+    padding: 13px;
     justify-content: center;
     border-radius: 300px;
     border: none;
@@ -154,7 +154,7 @@ div#results {
 input{
     width: 100%;
     display: flex;
-    padding: 13px;
+    padding: 10px;
     border: 1px solid rgb(196, 196, 196);
     box-shadow: 0 2px 4px 0 rgba(109, 109, 109, 0.2);
 }
@@ -264,7 +264,7 @@ cursor: pointer;
 
     .twoinputs {
         width: 90%;
-        gap: 12px;
+        gap: 11px;
     }
     .checkbox p{
         font-weight: 200;

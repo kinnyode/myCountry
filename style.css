@@ -18,7 +18,7 @@ a{
 
 @font-face {
     font-family: myfont;
-    src: url(Cygre-Book-BF63eeebf814697.ttf);
+    src: url(Nohemi-Regular-BF6438cc58b98fc.otf);
 }
 
 .navlinks a {
@@ -46,8 +46,8 @@ a{
 
 .login{
     display: flex;
-    width: 90px;
-    padding: 6px;
+    width: 100px;
+    padding: 13px;
     justify-content: center;
     border-radius: 300px;
     border: none;
@@ -72,6 +72,8 @@ a{
     justify-content: center;
     flex-direction: column;
     scroll-behavior: smooth;
+    background-attachment: fixed;
+    transition: 0.4s;
 }
 
 .stuff{
@@ -184,7 +186,7 @@ background: white;
     width: 100%;
 flex-direction: column;
     gap: 20px;
-    padding: 5px;
+
     
 }
 
@@ -364,10 +366,14 @@ gap: 30px;
 
 
 
-@media screen  and (max-width:700px){
+@media screen  and (max-width:900px){
     .assets h1{
-        font-size: 77px;
+        font-size: 80px;
         font-weight: 500;
+    }
+
+    .threecontinents{
+        gap: 15px;
     }
 
     .register{
@@ -414,7 +420,10 @@ h1{
     flex-direction: column;
     padding: 5px;
 }
-
+.register{
+    width: 125px;
+    padding: 15px;
+}
 
 @media screen  and (max-width:280px){
 
