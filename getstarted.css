@@ -23,7 +23,7 @@ a{
 
 @font-face {
     font-family: myfont;
-    src: url(Nohemi-Regular-BF6438cc58b98fc.otf);
+    src: url(SpaceGrotesk-Regular.ttf);
 }
 
 
@@ -140,7 +140,7 @@ div#results {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 60px;
+        margin-top: 50px;
         gap: 10px;
         height: 100%;
         font-size: 14px;

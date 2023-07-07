@@ -30,8 +30,8 @@ function validate(){
       }
 
       else if(password1 ==password2){
-        alert ("Password change successful. You are now being redirected to the Login page.");
-        window.location = "signin.html"; // Redirecting to other page.
+        document.getElementById("results").innerHTML = ("")  ; 
+        window.location = "redirect.html"; // Redirecting to other page.
         return false;
       }
 
