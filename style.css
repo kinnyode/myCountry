@@ -46,8 +46,8 @@ a{
 
 .login{
     display: flex;
-    width: 100px;
-    padding: 15px;
+    width: 90px;
+    padding: 10px;
     justify-content: center;
     border-radius: 300px;
     border: none;
@@ -375,6 +375,7 @@ gap: 30px;
         padding: 15px;
         border: none;
         width: 120px;
+        background-color: #000000;
     }
 
     
@@ -416,10 +417,7 @@ h1{
     flex-direction: column;
     padding: 5px;
 }
-.register{
-    width: 140px;
-    padding: 15px;
-}
+
 
 @media screen  and (max-width:280px){
 
