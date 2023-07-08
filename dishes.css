@@ -150,7 +150,7 @@ font-weight: 300;
     background-image: url(Food/amirali-mirhashemian-jh5XyK4Rr3Y-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
 
 
@@ -218,7 +218,7 @@ font-weight: 300;
 .boxasset h1{
     display: flex;
     color: rgb(255, 255, 255);
-    font-size: 27px;
+    font-size: 35px;
 }
 
 .threeboxes a{
