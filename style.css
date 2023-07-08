@@ -70,7 +70,7 @@ a{
     display: flex;
     width: 100%;
     height: 100vh;
-    background-image: url(Logo/le-tan-hHMLYxAPeoA-unsplash.jpg);
+    background-image: url(aman-pal-Ccr1f7xxzMg-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,7 +219,7 @@ flex-direction: column;
     display: flex;
     width: 100%;
     height: 600px;
-    background-image: url(Destinations/pexels-mathias-reding-16124568.jpg);
+    background-image: url(Logo/nasa-yZygONrUBe8-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -227,7 +227,7 @@ flex-direction: column;
     justify-content: center;
 flex-direction: column;
 gap: 30px;
-margin-top: 20px;
+
     
 }
 
@@ -240,10 +240,10 @@ margin-top: 20px;
     display: flex;
     width: 100%;
     height: 600px;
-    background-image: url(tianshu-liu-SBK40fdKbAg-unsplash.jpg);
+    background-image: url(Destinations/pexels-david-yu-5714053.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     align-items: center;
     justify-content: center; 
     flex-direction: column;
