@@ -65,6 +65,7 @@ a{
 
 
 
+
 .body{
     display: flex;
     width: 100%;
@@ -78,6 +79,7 @@ a{
     scroll-behavior: smooth;
     transition: 0.4s;
     scroll-behavior: smooth;
+    background-position: right;
 }
 
 .stuff{
@@ -211,6 +213,7 @@ flex-direction: column;
     justify-content: center;
 flex-direction: column;
 gap: 30px;
+margin-top: 20px;
     
 }
 
