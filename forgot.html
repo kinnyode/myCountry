@@ -7,6 +7,33 @@
     <link rel="stylesheet" href="forgot.css" />
   </head>
   <body>
+    <script>
+
+function validateform(){  
+    var email= document.myform.email.value;  
+
+        if (email==""){
+        document.getElementById("results").innerHTML = ("Please enter an email.")  ;
+      return false;
+  }
+
+
+       var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+            if (reg.test(email) == false) 
+            {
+              document.getElementById("results").innerHTML = ("Invalid email.")  ;
+            }
+
+            
+      else if(reg.test(email) == true){
+        document.getElementById("results").innerHTML = ("")  ;
+        window.location = "forgotlink.html"; // Redirecting to other page.
+        return false;
+      }
+}
+
+
+    </script>
     <div class="header">
       <div class="navlinks">
         <div class="logo">
@@ -33,10 +60,10 @@
         <div class="sectiontwo">
             <div class="assets">
                 <h1>Let's Help Get You Back!</h1>
-    
+                <form id="form_id" method="post" name="myform">
                 <div class="twoinputs">
                  <p> Enter your recovery email</p>
-                  <input type="text" />
+                  <input type="text"  name="email"/>
                   <div class="checkbox">
                                 <a href="getstarted.html">
                                     <p> Sign Up?</p>
@@ -44,10 +71,12 @@
                                 </datagrid></p>
                             </div>
                         </div>
-                        <a href="forgotlink.html">
-                            <button class="signup" id="active">Continue</button>
-                          </a>
+                        <div class="output" id="results"></div>
+                        
+                            <button class="signup" id="active" type="button" onclick="validateform()">Continue</button>
+                       
                 </div>
+                </form>
         </div>
       </div>
     </div>

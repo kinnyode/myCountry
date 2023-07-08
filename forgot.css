@@ -27,6 +27,23 @@ a{
 }
 
 
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+div#results {
+    color: rgb(235, 0, 0);
+    font-size: 15px;
+}
+
+
+
+
 .header{
     padding: 10px;
     background-color: rgb(255 255 255 / 71%);
