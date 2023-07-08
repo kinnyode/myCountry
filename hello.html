@@ -6,35 +6,20 @@
   </head>
   <body>
     <script>
-      function Validate() {
-        if (!validateForm()) {
-          alert("You must check atleast one of the checkboxes");
-          return false;
-        }
-        return true;
-      }
-      function validateForm() {
-        var c = document.getElementsByTagName("input");
-        for (var i = 0; i < c.length; i++) {
-          if (c[i].type == "checkbox") {
-            if (c[i].checked) {
-              return true;
-            }
-          }
-        }
-        return false;
-      }
-    </script>
+      const successCallback = (position) => {
+        console.log(position);
+      };
 
-    <form
-      name="myForm"
-      action="demo_form.asp"
-      onsubmit="return Validate()"
-      method="post"
-    >
-      Option 1: <input type="checkbox" name="option1" value="1" /><br />
-      Option 2: <input type="checkbox" name="option2" value="2" /><br />
-      <input type="submit" value="Submit Form" />
-    </form>
+      const errorCallback = (error) => {
+        console.log(error);
+      };
+
+      navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+
+      const options = {
+        enableHighAccuracy: true,
+        timeout: 10000,
+      };
+    </script>
   </body>
 </html>
