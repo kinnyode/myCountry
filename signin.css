@@ -91,6 +91,14 @@ div#results {
     cursor: pointer;
 }
 
+.login:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    transition: 0.4s;
+    color: black;
+    
+    }
+
 .body{
     display: flex;
     width: 100%;
@@ -191,7 +199,7 @@ select{
 .signup{
     display: flex;
     width: 120px;
-    padding: 12px;
+    padding: 13px;
     justify-content: center;
     border-radius: 300px;
     border: none;
@@ -202,6 +210,14 @@ select{
     font-size: 17px;
     cursor: pointer;
 }
+
+.signup:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    transition: 0.4s;
+    color: black;
+    
+    }
 
 .signinnow{
     width: fit-content;

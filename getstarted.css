@@ -96,6 +96,13 @@ div#results {
     font-size: 17px;
     cursor: pointer;
 }
+.login:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    transition: 0.4s;
+    color: black;
+    
+    }
 
 .body{
     display: flex;
@@ -205,6 +212,14 @@ select{
     cursor: pointer;
 }
 
+.signup:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    transition: 0.4s;
+    color: black;
+    
+    }
+
 .signinnow{
     width: fit-content;
     display: flex;
@@ -254,7 +269,7 @@ cursor: pointer;
     }
 
     .signintext {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .twoinputs p {
@@ -276,7 +291,7 @@ cursor: pointer;
     }
 
     .assets{
-        margin-top: 40px;
+        margin-top:35px;
     }
 }
 

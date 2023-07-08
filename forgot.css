@@ -83,6 +83,14 @@ div#results {
     cursor: pointer;
 }
 
+.login:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    transition: 0.4s;
+    color: black;
+    
+    }
+
 
 .body{
     display: flex;
@@ -195,6 +203,14 @@ select{
     font-size: 17px;
     cursor: pointer;
 }
+
+.signup:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    transition: 0.4s;
+    color: black;
+    
+    }
 
 .signinnow{
     width: fit-content;

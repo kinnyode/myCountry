@@ -79,7 +79,7 @@ a{
     scroll-behavior: smooth;
     transition: 0.4s;
     scroll-behavior: smooth;
-    background-position: right;
+    background-position: center;
 }
 
 .stuff{
@@ -124,7 +124,7 @@ font-family: myfont2;
     justify-content: center;
     border-radius: 300px;
     border: none;
-    transition: 0.7s;
+    transition: 0.5s;
     background-color: #000000;
     color: white;
     border: 0.2px solid rgb(0, 0, 0);
@@ -132,6 +132,20 @@ font-family: myfont2;
     cursor: pointer;
 }
 
+.register:hover{
+border: 1px solid white;
+background-color: transparent;
+transition: 0.4s;
+
+}
+
+.login:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    transition: 0.4s;
+    color: black;
+    
+    }
 form{
     color: #000000;
     display: flex;
@@ -456,7 +470,7 @@ h1{
     width: 10%;
 }
 
-@media screen  and (max-width:280px){
+@media screen  and (max-width:321px){
 
     .assets h1{
         font-size: 60px;
@@ -475,4 +489,6 @@ h1{
         padding: 10px;
     }
 }
+
+
 }
