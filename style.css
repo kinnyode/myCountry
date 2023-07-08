@@ -20,6 +20,10 @@ a{
     font-family: myfont;
     src: url(SpaceGrotesk-Regular.ttf);
 }
+@font-face {
+    font-family: myfont2;
+    src: url(Nohemi-Regular-BF6438cc58b98fc.otf);
+}
 
 .navlinks a {
     color: black;
@@ -94,8 +98,9 @@ justify-content: center;
 
 .assets h1{
     color: rgb(255, 255, 255);
-    font-size: 150px;
-
+    font-size: 160px;
+    font-weight: 600;
+font-family: myfont2;
 }
 
 .actionbtn{
@@ -342,6 +347,7 @@ gap: 30px;
     width: 100%;
     display: flex;
     color: white;
+    font-size: 20px;
 }
 
 
@@ -366,7 +372,8 @@ gap: 30px;
 
 
 
-@media screen  and (max-width:900px){
+
+@media screen  and (max-width:912px){
     .assets h1{
         font-size: 80px;
         font-weight: 500;
