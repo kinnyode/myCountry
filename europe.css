@@ -1,480 +1,492 @@
-*,body{
-    padding: 0;
-    font-family: myfont;
-    margin: 0;
-    box-sizing: border-box;
-    animation: fadeInAnimation ease 0.7s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+*,
+body {
+  padding: 0;
+  font-family: myfont;
+  margin: 0;
+  box-sizing: border-box;
+  animation: fadeInAnimation ease 0.7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 @font-face {
-    font-family: myfont;
-    src: url(SpaceGrotesk-Regular.ttf);
+  font-family: myfont;
+  src: url(Fonts/JekoDEMO-Medium.otf);
 }
 
-
-
-.header{
-    padding: 10px;
-    background-color:white;
-    color: rgb(0, 0, 0);
-    width: 100%;
-    position: fixed;
-    box-shadow: 0px 5px 15px rgba(74, 74, 74, 0.71);
-    display: flex;
-    z-index: 999999999999999999;
+.header {
+  padding: 10px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  position: fixed;
+  box-shadow: 0px 5px 15px rgba(74, 74, 74, 0.71);
+  display: flex;
+  z-index: 999999999999999999;
 }
 
-.navlinks{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-around;
-    
+.navlinks {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
 }
 
-.login{
-    display: flex;
-    width: 100px;
-    padding: 15px;
-    justify-content: center;
-    border-radius: 300px;
-    border: none;
-    transition: 0.7s;
-    background-color: #00145C;
-    color: white;
-    border: 0.2px solid rgb(0, 0, 0);
-    font-size: 17px;
-    cursor: pointer;
+.login {
+  display: flex;
+  width: 100px;
+  padding: 15px;
+  justify-content: center;
+  border-radius: 300px;
+  border: none;
+  transition: 0.7s;
+  background-color: #00145c;
+  color: white;
+  border: 0.2px solid rgb(0, 0, 0);
+  font-size: 17px;
+  cursor: pointer;
 }
-
 
 .navlinks a {
-    color: #000000;
+  color: #000000;
 }
 
-.body{
-    display: flex;
-    min-height: 100vh;
-    width: 100%;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex-direction: column;
-    gap: 30px;
+.body {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.assets{
-    width: 100%;
-    display: flex;
-    margin-top: 100px;
-    padding-left: 20px;
+.assets {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  padding-left: 20px;
+}
+.assets img {
+  width: 4%;
+  font-weight: 300;
+  object-fit: contain;
 }
 
-h3{
-font-weight: 300;
+.assets a {
+  text-decoration: none;
+  width: 60%;
+}
+.assets h1 {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+h3 {
+  font-weight: 300;
 }
 
-.bodyassets{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    font-weight: 300;
+.bodyassets h3 {
+  width: 50%;
+  font-weight: 300;
+  text-align: center;
 }
 
-.threeboxes{
-    display: flex;
-    width: 100%;
-gap: 30px;
-overflow: hidden;
-padding: 5px;
+.bodyassets {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-weight: 300;
 }
 
-.box1{
-    width: 100%;
-    height: 350px;
-    background-color: white;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-image: url(pexels-atypeek-dgn-5781917.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   
-}
-.boxtext{
-    flex-direction: column;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-  
-}
-.boxtext p{
-    color: rgb(0, 113, 227);
+.threeboxes {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  overflow: hidden;
+  padding: 5px;
 }
 
-.box2 p, .box3 p{
-    color: rgb(0, 113, 227);
+.box1 {
+  width: 100%;
+  height: 350px;
+  background-color: white;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url(pexels-atypeek-dgn-5781917.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.threeboxes :hover{
-    transform: scale(1.02);
-    overflow: hidden;
-    transition: 0.3s;
-
+.boxtext {
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
 }
-
-.flexbox :hover{
-    transform: scale(1.011);
-    overflow: hidden;
-    transition: 0.5s;
-
-}
-
-.box1 :hover{
-    transform: none;
-}
-.box2 :hover{
-    transform: none;
-}
-.box3 :hover{
-    transform: none;
+.boxtext p {
+  color: rgb(0, 113, 227);
 }
 
-.threeboxes a{
-    width: 100%;
+.box2 p,
+.box3 p {
+  color: rgb(0, 113, 227);
+}
+.threeboxes :hover {
+  transform: scale(1.02);
+  overflow: hidden;
+  transition: 0.3s;
 }
 
-
-.box2{
-    width: 100%;
-    height: 350px;
-    background-color: white;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-image: url(Food/pexels-valeria-boltneva-939052.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    flex-direction: column;
-    gap: 30px;
+.flexbox :hover {
+  transform: scale(1.011);
+  overflow: hidden;
+  transition: 0.5s;
 }
 
-
-
-.box3{
-    width: 100%;
-    height: 350px;
-    background-color: white;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-image: url(dd_camera_sensor__dytr7apk1zma_medium.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    flex-direction: column;
-    gap: 30px;
+.box1 :hover {
+  transform: none;
 }
-.dyksection{
-    display: flex;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+.box2 :hover {
+  transform: none;
+}
+.box3 :hover {
+  transform: none;
 }
 
-.boxtext{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    color: white;
+.threeboxes a {
+  width: 100%;
 }
 
-.dyksection{
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    background-color: #04031b;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+.box2 {
+  width: 100%;
+  height: 350px;
+  background-color: white;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url(Food/pexels-valeria-boltneva-939052.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.dykassets{
-    display: flex;
-    color: white;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.box3 {
+  width: 100%;
+  height: 350px;
+  background-color: white;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url(dd_camera_sensor__dytr7apk1zma_medium.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  flex-direction: column;
+  gap: 30px;
+}
+.dyksection {
+  display: flex;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.boxtext {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: white;
+}
+
+.dyksection {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  background-color: #04031b;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.dykassets {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 @keyframes enter-animation {
-    0% {
-      transform: translateY(100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(1px);
-      opacity: 1;
-    }
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
   }
-  @media (prefers-reduced-motion: no-preference) {
-    .dykassets-animation {
-      animation: enter-animation 0.5s 1;
-    }
-    .flexbox-animation {
-        animation: enter-animation 0.5s 1;
-      }
+  100% {
+    transform: translateY(1px);
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .dykassets-animation {
+    animation: enter-animation 0.5s 1;
+  }
+  .flexbox-animation {
+    animation: enter-animation 0.5s 1;
+  }
+}
+
+.flexcontainer {
+  display: flex;
+  width: 100%;
+}
+
+.flexbox {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+.fbox1 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-image: url(abstract-background-with-union-jack-flag.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.fbox2 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-image: url(pexels-taryn-elliott-3889927.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.fbox3 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-image: url(StockSnap_MFFX4ZPUMM\ 3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.fbox4 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-image: url(pexels-josh-sorenson-570987.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.fbox5 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-image: url(pexels-chait-goli-1797158.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.fbox6 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-image: url(czech-republic-flag-wrinkled-dark-background-3d-render.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.fbox7 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-image: url(flag-spain.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.fbox8 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-image: url(flags-france.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.fbox9 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-image: url(david-marcu-78A265wPiO4-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.flexbox h1 {
+  font-size: 27px;
+}
+
+.sectiontag {
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.fbox1 :hover,
+.fbox2 :hover,
+.fbox3 :hover,
+.fbox4 :hover,
+.fbox5 :hover,
+.fbox6 :hover,
+.fbox7 :hover,
+.fbox8 :hover,
+.fbox9 :hover {
+  transform: none;
+  overflow: hidden;
+}
+
+.flexbox a {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 912px) {
+  .login {
+    font-size: 15px;
+    padding: 13px;
   }
 
-.flexcontainer{
-    display: flex;
-    width: 100%;
-    
-}
+  .logo p {
+    font-size: 15px;
+  }
 
-.flexbox{
-    display: flex;
-    gap: 10px;
-    width: 100%;
-padding: 5px;
-}
-
-.fbox1{
-width: 100%;
-height: 300px;
-display: flex;
-background-image:url(abstract-background-with-union-jack-flag.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-justify-content: center;
-align-items: center;
-color: white;
-}
-
-
-.fbox2{
-    width: 100%;
-    height: 300px;
-    display: flex;
-    background-image:url(pexels-taryn-elliott-3889927.jpg) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    }
-    
-
-
-    .fbox3{
-        width: 100%;
-        height:300px;
-        display: flex;
-        background-image:url(StockSnap_MFFX4ZPUMM\ 3.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        }
-
-
-        .fbox4{
-            width: 100%;
-            height: 300px;
-            display: flex;
-            background-image:url(pexels-josh-sorenson-570987.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            }
-
-            .fbox5{
-                width: 100%;
-                height: 300px;
-                display: flex;
-                background-image:url(pexels-chait-goli-1797158.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-                justify-content: center;
-                align-items: center;
-                color: white;
-                }
-
-                .fbox6{
-                    width: 100%;
-                    height: 300px;
-                    display: flex;
-                    background-image:url(czech-republic-flag-wrinkled-dark-background-3d-render.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    justify-content: center;
-                    align-items: center;
-                    color: white;
-                    }
-
-                    .fbox7{
-                        width: 100%;
-                        height: 300px;
-                        display: flex;
-                        background-image:url(flag-spain.jpg);
-                        background-size: cover;
-                        background-repeat: no-repeat;
-                        background-position: center;
-                        justify-content: center;
-                        align-items: center;
-                        color: white;
-                        }
-
-                        .fbox8{
-                            width: 100%;
-                            height: 300px;
-                            display: flex;
-                            background-image:url(flags-france.jpg);
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            justify-content: center;
-                            align-items: center;
-                            color: white;
-                            }
-
-
-                            .fbox9{
-                                width: 100%;
-                                height: 300px;
-                                display: flex;
-                                background-image:url(david-marcu-78A265wPiO4-unsplash.jpg);
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                                background-position: center;
-                                justify-content: center;
-                                align-items: center;
-                                color: white;
-                                }
-
-                            .flexbox h1{
-                                font-size: 27px;
-                            }
-
-
-                            .sectiontag{
-                                width: 100%;
-                                justify-content: center;
-                                align-self: center;
-                                display: flex;
-                                padding: 25px;
-                                margin-top: 20px;
-                            }
-
-
-
-.fbox1 :hover , .fbox2 :hover, .fbox3 :hover, .fbox4 :hover, .fbox5 :hover, .fbox6 :hover,.fbox7 :hover, .fbox8 :hover, .fbox9 :hover{
-        transform: none;
-        overflow: hidden;
-}
-
-.flexbox a{
-    width: 100%;
-    height: 100%;
-    padding: 5px;
-}
-
-
-
-
-
-@media screen  and (max-width:912px){
-
-    .login{
-        font-size: 15px;
-        padding: 13px;
-    }
-
-    .logo p{
-        font-size: 15px;
-    }
-
-
-
-.threeboxes{
+  .threeboxes {
     flex-direction: column;
     padding: 0px;
-}
+  }
 
-h1{
+  h1 {
     font-weight: 500;
-}
-h3{
+  }
+  h3 {
     font-weight: 100;
-}
-    
-.box1, .box2, .box3{
-    height: 60vh;
-}
+  }
 
-.box2, .box3{
+  .box1,
+  .box2,
+  .box3 {
+    height: 60vh;
+  }
+
+  .box2,
+  .box3 {
     background-position: right;
-}
-h2{
+  }
+  h2 {
     font-weight: 300;
     font-size: 27px;
-}
-.dykassets h2{
+  }
+  .dykassets h2 {
     font-size: 14px;
-}
+  }
 
-.flexbox{
+  .flexbox {
     flex-direction: column;
-}
+  }
 
-.flexbox{
+  .flexbox {
     padding: 0px;
     overflow: hidden;
-}
+  }
 
-.flexcontainer{
+  .flexcontainer {
     height: 100vh;
-}
+  }
 
-.flexbox a{
+  .flexbox a {
     width: 100%;
     height: 100%;
     padding: 0px;
-}
-.fbox4 ,.fbox7{
+  }
+  .fbox4,
+  .fbox7 {
     margin-top: 10px;
-}
-}
+  }
 
+  .bodyassets h3 {
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+  }
+}
