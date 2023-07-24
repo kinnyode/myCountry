@@ -24,7 +24,7 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(Fonts/JekoDEMO-ExtraLight.otf);
+  src: url(Fonts/BonwickTypeface-Regular.otf);
 }
 
 form#form_id {
@@ -51,18 +51,15 @@ div#results {
   display: flex;
   z-index: 99999999999;
 }
-
 .navlinks {
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: space-around;
 }
-
 .logo a {
   color: black;
 }
-
 .login {
   display: flex;
   width: 100px;
@@ -84,13 +81,11 @@ div#results {
   transition: 0.4s;
   color: black;
 }
-
 .body {
   display: flex;
   width: 100%;
   height: 95vh;
 }
-
 .twosections {
   display: flex;
   width: 100%;
@@ -98,19 +93,16 @@ div#results {
   padding: 0px;
   margin-top: 40px;
 }
-
 .sectionone {
   width: 100%;
   height: 100%;
   display: flex;
 }
-
 .sectiontwo {
   width: 100%;
   height: 100%;
   display: flex;
 }
-
 .sectionone img {
   width: 100%;
   height: 100%;
@@ -118,7 +110,6 @@ div#results {
   margin-top: 30px;
   object-position: top;
 }
-
 .assets {
   width: 100%;
   justify-content: center;
@@ -147,7 +138,6 @@ select {
   border: 1px solid rgb(196, 196, 196);
   font-size: 14px;
 }
-
 .twoinputs {
   flex-direction: column;
   display: flex;
@@ -164,12 +154,10 @@ select {
   align-items: center;
   gap: 10px;
 }
-
 .checkbox a {
   text-decoration: underline;
   color: #00145c;
 }
-
 .signup {
   display: flex;
   width: 120px;
@@ -184,14 +172,12 @@ select {
   font-size: 17px;
   cursor: pointer;
 }
-
 .signup:hover {
   border: 1px solid rgb(0, 0, 0);
   background-color: transparent;
   transition: 0.4s;
   color: black;
 }
-
 .signinnow {
   width: fit-content;
   display: flex;
@@ -202,6 +188,7 @@ select {
   color: black;
   font-weight: 400;
   line-height: 24px;
+
   letter-spacing: -0.01em;
   margin-top: 15px;
   border-radius: 30px;
@@ -216,39 +203,32 @@ select {
   object-fit: contain;
   height: 100%;
 }
-
 .signuplink {
   display: flex;
   width: 100%;
   align-self: center;
   justify-content: center;
 }
-
 @media screen and (max-width: 769px) {
   .sectionone {
     display: none;
   }
-
   div#results {
     color: red;
     font-size: 12px;
     font-weight: 300;
   }
-
   h1 {
     font-weight: 500;
     font-size: 25px;
   }
-
   .signintext {
     font-size: 14px;
   }
-
   .twoinputs p {
     font-weight: 100;
     font-size: 11px;
   }
-
   .twoinputs {
     width: 100%;
     gap: 20px;
@@ -257,7 +237,6 @@ select {
   .checkbox p {
     font-weight: 200;
   }
-
   .signup {
     font-weight: 500;
     font-size: 17px;
@@ -267,7 +246,6 @@ select {
     margin-top: 40px;
   }
 }
-
 @media screen and (max-width: 280px) {
   .login {
     padding: 7px;

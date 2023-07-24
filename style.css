@@ -16,11 +16,11 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(Fonts/JekoDEMO-Medium.otf);
+  src: url(Fonts/BonwickTypeface-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
-  src: url(Fonts/JekoDEMO-Medium.otf);
+  src: url(Fonts/BonwickTypeface-Regular.otf);
 }
 
 .navlinks a {

@@ -1,315 +1,302 @@
-*,body{
-    padding: 0;
-    font-family: myfont;
-    margin: 0;
-    box-sizing: border-box;
+*,
+body {
+  padding: 0;
+  font-family: myfont;
+  margin: 0;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 @font-face {
-    font-family: myfont;
-    src: url(SpaceGrotesk-Regular.ttf);
+  font-family: myfont;
+  src: url(Fonts/BonwickTypeface-Regular.otf);
 }
 
 .navlinks a {
-    color: black;
+  color: black;
 }
 
-.header{
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    width: 100%;
-    position: fixed;
-    box-shadow: 0px 5px 15px rgba(74, 74, 74, 0.71);
-    display: flex;
-    z-index: 9999999999999;
+.header {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 100%;
+  position: fixed;
+  box-shadow: 0px 5px 15px rgba(74, 74, 74, 0.71);
+  display: flex;
+  z-index: 9999999999999;
 }
 
-.navlinks{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-around;
-    
+.navlinks {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
 }
 
-.login{
-    display: flex;
-    width: 100px;
-    padding: 15px;
-    justify-content: center;
-    border-radius: 300px;
-    border: none;
-    transition: 0.7s;
-    background-color: #00145C;
-    color: white;
-    border: 0.2px solid rgb(0, 0, 0);
-    font-size: 17px;
-    cursor: pointer;
+.login {
+  display: flex;
+  width: 100px;
+  padding: 15px;
+  justify-content: center;
+  border-radius: 300px;
+  border: none;
+  transition: 0.7s;
+  background-color: #00145c;
+  color: white;
+  border: 0.2px solid rgb(0, 0, 0);
+  font-size: 17px;
+  cursor: pointer;
 }
 
-
-.body{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex-direction: column;
-    gap: 20px;
+.body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.assets{
-    width: 100%;
-    display: flex;
-    margin-top: 100px;
-   justify-content: center;
-   align-items: center;
+.assets {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
 }
 
-h3{
-font-weight: 300;
+h3 {
+  font-weight: 300;
 }
 
-.bodyassets{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    font-weight: 300;
+.bodyassets {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-weight: 300;
 }
 
-
-
-
-.threeboxes{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    gap: 20px;
-    padding: 0px;
+.threeboxes {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+  padding: 0px;
 }
 
-.box1{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/beautiful-shot-famous-roman-colosseum-amphitheater-breathtaking-sky-sunrise\ \(1\).jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
+.box1 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  background-image: url(Destinations/mount-batur.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
-.box2{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/gloria-villa-GjYw5xyMI3w-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.box2 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  background-image: url(Destinations/gloria-villa-GjYw5xyMI3w-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-
-.box3{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/riccardo-manieri-vrTa4x_qeUA-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+.box3 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  background-image: url(Destinations/riccardo-manieri-vrTa4x_qeUA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
 
-.box4{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/grand-canyon-nature-footage-arizona-usa.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.box4 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  background-image: url(Destinations/grand-canyon-nature-footage-arizona-usa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-
-.box5{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/pexels-k-production-10295906.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+.box5 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  background-image: url(Destinations/pexels-k-production-10295906.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
 
-
-.box6{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/pyramids\ of\ giza.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+.box6 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  background-image: url(Destinations/pyramids\ of\ giza.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
 
-.box7{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/pexels-athena-6580703.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.box7 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  background-image: url(Destinations/pexels-athena-6580703.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.box8{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/pexels-hugo-sykes-12412165.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.box8 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  background-image: url(Destinations/pexels-hugo-sykes-12412165.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.box9{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    background-image: url(Destinations/pexels-pixabay-64766.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.box9 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  background-image: url(Destinations/pexels-pixabay-64766.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-
-.section2{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
+.section2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
 }
 
-.boxasset{
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+.boxasset {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.boxasset h1{
-    display: flex;
-    color: rgb(255, 255, 255);
-    font-size: 27px;
+.boxasset h1 {
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 27px;
 }
 
-.threeboxes a{
-    width: 100%;
+.threeboxes a {
+  width: 100%;
 }
-.boxasset p{
-    color: rgb(0, 113, 227);
-}
-
-.box1 p, .box2 p, .box3 p{
-    color: rgb(0, 113, 227);
-    
+.boxasset p {
+  color: rgb(0, 113, 227);
 }
 
+.box1 p,
+.box2 p,
+.box3 p {
+  color: rgb(0, 113, 227);
+}
 
+@media screen and (max-width: 912px) {
+  .boxasset h1 {
+    font-size: 25px;
+  }
+  .login {
+    font-size: 15px;
+    padding: 13px;
+  }
 
+  .logo p {
+    font-size: 15px;
+  }
 
-
-
-@media screen  and (max-width:912px){
-
-
-    .boxasset h1{
-        font-size: 25px;
-    }
-    .login{
-        font-size: 15px;
-        padding: 13px;
-    }
-
-    .logo p{
-        font-size: 15px;
-    }
-
-
-
-.threeboxes{
+  .threeboxes {
     flex-direction: column;
     padding: 0px;
-}
+  }
 
-h1{
+  h1 {
     font-weight: 500;
-}
-h3{
+  }
+  h3 {
     font-weight: 100;
-}
-    
-.box1, .box2, .box3{
+  }
+
+  .box1,
+  .box2,
+  .box3 {
     height: 45vh;
-}
+  }
 
-.box2, .box3{
+  .box2,
+  .box3 {
     background-position: center;
-}
-h2{
+  }
+  h2 {
     font-weight: 300;
-}
+  }
 
-.dykassets h2{
+  .dykassets h2 {
     font-size: 14px;
-}
+  }
 
-.flexbox{
+  .flexbox {
     flex-direction: column;
-}
+  }
 
-.flexbox{
+  .flexbox {
     padding: 0px;
     overflow: hidden;
-}
+  }
 
-.flexcontainer{
+  .flexcontainer {
     height: 100vh;
-}
+  }
 
-.flexbox a{
+  .flexbox a {
     width: 100%;
     height: 100%;
     padding: 0px;
-}
-.fbox4 ,.fbox7{
+  }
+  .fbox4,
+  .fbox7 {
     margin-top: 10px;
-}
-.assets h1{
+  }
+  .assets h1 {
     font-weight: 500;
     font-size: 20px;
     display: flex;
-}
-.section2{
+  }
+  .section2 {
     padding: 5px;
-}
-
+  }
 }
