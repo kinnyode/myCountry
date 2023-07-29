@@ -24,7 +24,7 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(Fonts/BonwickTypeface-Regular.otf);
+  src: url(changes/ClashDisplay-Light.otf);
 }
 
 form#form_id {

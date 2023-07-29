@@ -24,7 +24,7 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(Fonts/Jeko\ Medium.ttf);
+  src: url(changes/ClashDisplay-Light.otf);
 }
 
 .header {
@@ -145,6 +145,14 @@ h1 {
 
   .assets {
     margin-top: 50px;
+  }
+
+  .header {
+    height: 60px;
+  }
+
+  .navlinks a {
+    font-size: 13px;
   }
 }
 
