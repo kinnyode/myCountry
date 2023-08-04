@@ -24,7 +24,7 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(adihausdin.ttf);
+  src: url(adineue-PRO.ttf);
 }
 
 form#form_id {
@@ -43,7 +43,7 @@ div#results {
 
 .header {
   padding: 10px;
-  background-color: rgb(255 255 255 / 71%);
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   width: 100%;
   position: fixed;
@@ -108,7 +108,7 @@ div#results {
   height: 100%;
   object-fit: cover;
   margin-top: 30px;
-  object-position: top;
+  object-position: left;
 }
 .assets {
   width: 100%;
