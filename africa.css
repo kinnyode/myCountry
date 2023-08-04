@@ -47,7 +47,7 @@ a {
 .login {
   display: flex;
   width: 100px;
-  padding: 15px;
+  padding: 13px;
   justify-content: center;
   border-radius: 300px;
   border: none;
@@ -72,7 +72,8 @@ a {
   background-size: cover;
   background-position: center;
   flex-direction: column;
-  gap: 30px;
+
+  justify-content: center;
 }
 
 .assets {
@@ -81,6 +82,11 @@ a {
   margin-top: 100px;
   padding-left: 20px;
   justify-content: center;
+}
+
+.assets h1 {
+  gap: 40px;
+  font-size: 60px;
 }
 
 h3 {
@@ -98,8 +104,10 @@ h3 {
 
 .bodyassets h3 {
   width: 50%;
-  font-weight: 300;
+  font-weight: 200;
   text-align: center;
+  font-size: 19px;
+  letter-spacing: 0.5px;
 }
 
 .threeboxes {
@@ -107,14 +115,14 @@ h3 {
   width: 100%;
   gap: 30px;
   overflow: hidden;
-  padding: 5px;
+  padding: 10px;
 }
 
 .box1 {
   width: 100%;
-  height: 350px;
+  height: 400px;
   background-color: white;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+
   justify-content: center;
   align-items: center;
   display: flex;
@@ -134,14 +142,29 @@ h3 {
   color: rgb(0, 113, 227);
 }
 
+.boxtext h2 {
+  font-size: 35px;
+}
+.box2 h2 {
+  font-size: 35px;
+}
+
+.box3 h2 {
+  font-size: 35px;
+}
+
+.dyksection h1 {
+  font-size: 65px;
+}
+
 .box2 p,
 .box3 p {
   color: rgb(0, 113, 227);
 }
 .threeboxes :hover {
-  transform: scale(1.01);
+  transform: scale(1.009);
   overflow: hidden;
-  transition: 0.4s;
+  transition: 0.5s;
   border-radius: 10px;
 }
 
@@ -161,9 +184,9 @@ h3 {
 
 .box2 {
   width: 100%;
-  height: 350px;
+  height: 400px;
   background-color: white;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+
   justify-content: center;
   align-items: center;
   display: flex;
@@ -179,9 +202,9 @@ h3 {
 
 .box3 {
   width: 100%;
-  height: 350px;
+  height: 400px;
   background-color: white;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+
   justify-content: center;
   align-items: center;
   display: flex;
@@ -259,7 +282,7 @@ h3 {
 
 .fbox1 {
   width: 100%;
-  height: 300px;
+  height: 350px;
   display: flex;
   background-image: url(Africa/leo-moko-lbBi6XDGzvg-unsplash.jpg);
   background-size: cover;
@@ -273,7 +296,7 @@ h3 {
 
 .fbox2 {
   width: 100%;
-  height: 300px;
+  height: 350px;
   display: flex;
   background-image: url(Africa/calin-stan-Mv15X2n8JVE-unsplash.jpg);
   background-size: cover;
@@ -287,7 +310,7 @@ h3 {
 
 .fbox3 {
   width: 100%;
-  height: 300px;
+  height: 350px;
   display: flex;
   background-image: url(Africa/babatunde-olajide-jcQdBcW7Tmw-unsplash.jpg);
   background-size: cover;
@@ -301,7 +324,7 @@ h3 {
 
 .fbox4 {
   width: 100%;
-  height: 300px;
+  height: 350px;
   display: flex;
   background-image: url(Africa/morocco-flag-wrinkled-dark-background-3d-render.jpg);
   background-size: cover;
@@ -315,7 +338,7 @@ h3 {
 
 .fbox5 {
   width: 100%;
-  height: 300px;
+  height: 350px;
   display: flex;
   background-image: url(Africa/gerald-schombs-thUSm2Ib96E-unsplash.jpg);
   background-size: cover;
@@ -329,7 +352,7 @@ h3 {
 
 .fbox6 {
   width: 100%;
-  height: 300px;
+  height: 350px;
   display: flex;
   background-image: url(Africa/sutirta-budiman-kjOBqwMUnWw-unsplash.jpg);
   background-size: cover;
@@ -343,7 +366,7 @@ h3 {
 
 .fbox7 {
   width: 100%;
-  height: 300px;
+  height: 350px;
   display: flex;
   background-image: url(Africa/virgyl-sowah-E9NPWGBXM9o-unsplash.jpg);
   background-size: cover;
@@ -357,7 +380,7 @@ h3 {
 
 .fbox8 {
   width: 100%;
-  height: 300px;
+  height: 350px;
   display: flex;
   background-image: url(Africa/tanzania-flag-wrinkled-dark-background-3d-render.jpg);
   background-size: cover;
@@ -371,7 +394,7 @@ h3 {
 
 .fbox9 {
   width: 100%;
-  height: 300px;
+  height: 350px;
   display: flex;
   background-image: url(Africa/haythem-gataa-NULfCuLFTLg-unsplash.jpg);
   background-size: cover;
@@ -384,7 +407,7 @@ h3 {
 }
 
 .flexbox h1 {
-  font-size: 27px;
+  font-size: 30px;
 }
 
 .sectiontag {
@@ -414,8 +437,45 @@ h3 {
   height: 100%;
   padding: 5px;
 }
+@media screen and (max-width: 1224px) {
+  .boxtext h2 {
+    font-size: 25px;
+  }
+
+  .box2 h2 {
+    font-size: 25px;
+  }
+  .box3 h2 {
+    font-size: 25px;
+  }
+}
 
 @media screen and (max-width: 912px) {
+  .assets h1 {
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  .login {
+    display: flex;
+    width: 80px;
+    padding: 12px;
+  }
+
+  .dyksection h1 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: myfont;
+    src: url(adineue-pro-light-web-regular.otf);
+
+    .assets h1 {
+      font-size: 30px;
+      font-weight: 500;
+    }
+  }
   body {
     font-weight: 400;
   }
@@ -423,10 +483,11 @@ h3 {
     width: 100%;
     font-weight: 300;
     text-align: center;
+    letter-spacing: 0.4px;
+    font-size: 19px;
   }
   .login {
     font-size: 15px;
-    padding: 13px;
   }
 
   .logo p {
@@ -468,10 +529,11 @@ h3 {
   }
   h2 {
     font-weight: 300;
+    font-size: 30px;
   }
 
   .dykassets h2 {
-    font-size: 14px;
+    font-size: 19px;
   }
 
   .flexbox {
@@ -495,5 +557,26 @@ h3 {
   .fbox4,
   .fbox7 {
     margin-top: 0px;
+  }
+
+  @media screen and (max-width: 410px) {
+    .dykassets h2 {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 330px) {
+    h2 {
+      font-size: 22px;
+    }
+    .dyksection h1 {
+      font-size: 30px;
+    }
+  }
+  .assets h1 {
+    font-size: 30px;
+  }
+  .bodyassets h3 {
+    font-size: 14px;
   }
 }

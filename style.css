@@ -412,6 +412,10 @@ input [type="text"]:focus {
 }
 
 @media screen and (max-width: 912px) {
+  @font-face {
+    font-family: myfont;
+    src: url(adineue-pro-light-web-regular.otf);
+  }
   .assets h1 {
     font-size: 80px;
     font-weight: 500;
@@ -494,6 +498,12 @@ input [type="text"]:focus {
 
   .threecontinents {
     padding: 0px;
+  }
+
+  .login {
+    display: flex;
+    width: 90px;
+    padding: 12px;
   }
 
   @media screen and (max-width: 321px) {
