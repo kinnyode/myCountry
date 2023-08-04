@@ -23,7 +23,7 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(changes/ClashDisplay-Light.otf);
+  src: url(adihausdin.ttf);
 }
 
 .header {
@@ -118,10 +118,11 @@ h3 {
   justify-content: center;
   align-items: center;
   display: flex;
-  background-image: url(closeup-shot-zebra-jungle.jpg);
+  background-image: url(changes/3cc1c083955091.5d4c3bfea3a5f.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 10px;
 }
 .boxtext {
   flex-direction: column;
@@ -138,9 +139,10 @@ h3 {
   color: rgb(0, 113, 227);
 }
 .threeboxes :hover {
-  transform: scale(1.03);
+  transform: scale(1.01);
   overflow: hidden;
-  transition: 0.7s;
+  transition: 0.4s;
+  border-radius: 10px;
 }
 
 .box1 :hover {
@@ -172,6 +174,7 @@ h3 {
   color: white;
   flex-direction: column;
   gap: 30px;
+  border-radius: 10px;
 }
 
 .box3 {
@@ -182,13 +185,14 @@ h3 {
   justify-content: center;
   align-items: center;
   display: flex;
-  background-image: url(medium-shot-smiley-woman-outdoors.jpg);
+  background-image: url(changes/146838172009289.6477f754e80cb.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: white;
   flex-direction: column;
   gap: 30px;
+  border-radius: 10px;
 }
 .dyksection {
   display: flex;
@@ -425,7 +429,18 @@ h3 {
 
   .threeboxes {
     flex-direction: column;
-    padding: 0px;
+    padding: 7px;
+  }
+  .flexcontainer1 {
+    padding: 10px;
+  }
+
+  .flexcontainer2 {
+    padding: 10px;
+  }
+
+  .flexcontainer3 {
+    padding: 10px;
   }
 
   h1 {
@@ -473,6 +488,6 @@ h3 {
   }
   .fbox4,
   .fbox7 {
-    margin-top: 10px;
+    margin-top: 0px;
   }
 }

@@ -16,11 +16,11 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(changes/ClashDisplay-Light.otf);
+  src: url(changes/Melodrama-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
-  src: url(changes/ClashDisplay-Light.otf);
+  src: url(adineue-PRO.ttf);
 }
 
 .navlinks a {
@@ -28,7 +28,7 @@ a {
 }
 
 .header {
-  padding: 10px;
+  padding: 7px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   width: 100%;
@@ -64,8 +64,8 @@ a {
   display: flex;
   width: 100%;
   height: 100vh;
-  background-image: url(aman-pal-Ccr1f7xxzMg-unsplash.jpg);
-  background-position: center;
+  background-image: url(changes/188950169901385.64548c1433554.png);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
@@ -73,7 +73,7 @@ a {
   scroll-behavior: smooth;
   transition: 0.4s;
   scroll-behavior: smooth;
-  background-position: center;
+  background-position: top;
 }
 
 .stuff {
@@ -120,7 +120,7 @@ a {
   transition: 0.5s;
   background-color: #000000;
   color: white;
-  border: 0.2px solid rgb(0, 0, 0);
+  border: 0.2px solid rgb(255, 255, 255);
   font-size: 22px;
   cursor: pointer;
 }
@@ -198,6 +198,7 @@ input [type="text"]:focus {
   width: 100%;
   flex-direction: column;
   gap: 20px;
+  padding: 20px;
 }
 
 .threecontinents a {
@@ -207,14 +208,15 @@ input [type="text"]:focus {
   display: flex;
   width: 100%;
   height: 600px;
-  background-image: url(changes/pexels-snapwire-6918.jpg);
+  background-image: url(changes/a44936174463141.64a313cc7b5fe.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 30px;
+  margin-top: 20px;
 }
 
 .continent1 h1,
@@ -228,10 +230,10 @@ input [type="text"]:focus {
   display: flex;
   width: 100%;
   height: 600px;
-  background-image: url(Logo/pexels-pixabay-301614.jpg);
+  background-image: url(changes/49f74f149056891.62e0ad5ea9252.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -242,7 +244,7 @@ input [type="text"]:focus {
   display: flex;
   width: 100%;
   height: 600px;
-  background-image: url(changes/pexels-sharad-bhat-3974145.jpg);
+  background-image: url(changes/1a8f2285957725.5d8b584b76f93.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -257,7 +259,7 @@ input [type="text"]:focus {
 }
 
 .continent2 h1 {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .continent1 p,
@@ -289,35 +291,57 @@ input [type="text"]:focus {
 
 .box1 {
   width: 100%;
-  height: 400px;
+  height: 300px;
   display: flex;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-  background-image: url(changes/pexels-hardeep-singh-17747035.jpg);
+  background-image: url(changes/4aea6882953737.5ea005a1d2451.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.box1:hover {
+  transform: scale(1.01);
+}
+
+.boxasset:hover {
+  transform: none;
 }
 
 .box2 {
   width: 100%;
-  height: 400px;
+  height: 300px;
   display: flex;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
   background-image: url(Destinations/pexels-valeria-boltneva-842571.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.box2:hover {
+  transform: scale(1.01);
 }
 
 .box3 {
   width: 100%;
-  height: 400px;
+  height: 300px;
   display: flex;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
   background-image: url(Destinations/sigmund-EgwhIBec0Ck-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.box3:hover {
+  transform: scale(1.01);
 }
 
 .section2 {
@@ -453,7 +477,7 @@ input [type="text"]:focus {
   }
 
   .threecontinents {
-    width: 95%;
+    width: 97%;
   }
 
   .continentselect {
@@ -466,6 +490,10 @@ input [type="text"]:focus {
 
   .continent1 {
     margin-top: 20px;
+  }
+
+  .threecontinents {
+    padding: 0px;
   }
 
   @media screen and (max-width: 321px) {
