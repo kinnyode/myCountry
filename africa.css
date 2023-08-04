@@ -23,7 +23,7 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(adineue-PRO.ttf);
+  src: url(adineue-pro-light-web-regular.otf);
 }
 
 .header {
@@ -365,6 +365,7 @@ h3 {
   justify-content: center;
   align-items: center;
   color: white;
+  border-radius: 10px;
 }
 
 .fbox9 {
@@ -378,6 +379,7 @@ h3 {
   justify-content: center;
   align-items: center;
   color: white;
+  border-radius: 10px;
 }
 
 .flexbox h1 {
