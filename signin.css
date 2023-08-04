@@ -212,9 +212,11 @@ select {
 @media screen and (max-width: 769px) {
   @font-face {
     font-family: myfont;
-    src: url(adineue-PRO.ttf);
+    src: url(adineue-pro-light-web-regular.otf);
   }
-
+  .body {
+    font-weight: 500;
+  }
   .sectionone {
     display: none;
   }
