@@ -32,7 +32,7 @@ a {
   color: rgb(0, 0, 0);
   width: 100%;
   position: fixed;
-  box-shadow: 0px 5px 15px rgba(189, 189, 189, 0.724);
+  box-shadow: 0px 5px 15px rgba(98, 98, 98, 0.235);
   display: flex;
   z-index: 999999999999999999;
 }
