@@ -210,6 +210,11 @@ select {
   justify-content: center;
 }
 @media screen and (max-width: 769px) {
+  @font-face {
+    font-family: myfont;
+    src: url(adineue-PRO.ttf);
+  }
+
   .sectionone {
     display: none;
   }
