@@ -23,7 +23,7 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(adineue-pro-light-web-regular.otf);
+  src: url(adineue-PRO.ttf);
 }
 
 .header {
@@ -352,6 +352,7 @@ h3 {
   justify-content: center;
   align-items: center;
   color: white;
+  border-radius: 10px;
 }
 
 .fbox8 {
@@ -415,6 +416,13 @@ h3 {
 }
 
 @media screen and (max-width: 912px) {
+  @font-face {
+    font-family: myfont;
+    src: url(adineue-pro-light-web-regular.otf);
+  }
+  body {
+    font-weight: 500;
+  }
   .bodyassets h3 {
     width: 100%;
     font-weight: 300;
@@ -446,7 +454,7 @@ h3 {
   }
 
   h1 {
-    font-weight: 500;
+    font-weight: 600;
   }
   h3 {
     font-weight: 100;
