@@ -96,7 +96,7 @@ h3 {
   width: 100%;
   height: 400px;
   display: flex;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
   background-image: url(Destinations/mount-batur.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,7 +107,7 @@ h3 {
   width: 100%;
   height: 400px;
   display: flex;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
   background-image: url(Destinations/gloria-villa-GjYw5xyMI3w-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,7 +118,7 @@ h3 {
   width: 100%;
   height: 400px;
   display: flex;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
   background-image: url(Destinations/riccardo-manieri-vrTa4x_qeUA-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -129,7 +129,7 @@ h3 {
   width: 100%;
   height: 400px;
   display: flex;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
   background-image: url(Destinations/grand-canyon-nature-footage-arizona-usa.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -140,8 +140,8 @@ h3 {
   width: 100%;
   height: 400px;
   display: flex;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-  background-image: url(Destinations/pexels-k-production-10295906.jpg);
+  border-radius: 10px;
+  background-image: url(changes/pexels-rosivan-morais-3698913.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -151,7 +151,7 @@ h3 {
   width: 100%;
   height: 400px;
   display: flex;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
   background-image: url(Destinations/pyramids\ of\ giza.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,7 +162,7 @@ h3 {
   width: 100%;
   height: 400px;
   display: flex;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
   background-image: url(Destinations/pexels-athena-6580703.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,7 +173,7 @@ h3 {
   width: 100%;
   height: 400px;
   display: flex;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
   background-image: url(Destinations/pexels-hugo-sykes-12412165.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,7 +184,7 @@ h3 {
   width: 100%;
   height: 400px;
   display: flex;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
   background-image: url(Destinations/pexels-pixabay-64766.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -254,6 +254,18 @@ h3 {
   .box1,
   .box2,
   .box3 {
+    height: 45vh;
+  }
+
+  .box4,
+  .box5,
+  .box6 {
+    height: 45vh;
+  }
+
+  .box7,
+  .box8,
+  .box9 {
     height: 45vh;
   }
 
