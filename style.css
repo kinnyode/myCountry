@@ -16,7 +16,7 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(changes/Melodrama-Regular.otf);
+  src: url(adineue-pro-light-web-regular.otf);
 }
 @font-face {
   font-family: myfont2;
@@ -443,7 +443,7 @@ input [type="text"]:focus {
   }
 
   .header {
-    padding: 10px;
+    padding: 8px;
   }
 
   .continent1,
