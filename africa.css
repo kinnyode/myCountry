@@ -416,12 +416,8 @@ h3 {
 }
 
 @media screen and (max-width: 912px) {
-  @font-face {
-    font-family: myfont;
-    src: url(adineue-pro-light-web-regular.otf);
-  }
   body {
-    font-weight: 300;
+    font-weight: 400;
   }
   .bodyassets h3 {
     width: 100%;
