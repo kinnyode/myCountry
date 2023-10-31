@@ -24,7 +24,7 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(adineue-PRO.ttf);
+  src: url(Cygre-Book-BF63eeebf814697.ttf);
 }
 
 form#form_id {
@@ -64,8 +64,8 @@ div#results {
 
 .login {
   display: flex;
-  width: 100px;
-  padding: 13px;
+  width: 90px;
+  padding: 10px;
   justify-content: center;
   border-radius: 300px;
   border: none;
@@ -73,7 +73,7 @@ div#results {
   background-color: #00145c;
   color: white;
   border: 0.2px solid rgb(0, 0, 0);
-  font-size: 17px;
+  font-size: 15px;
   cursor: pointer;
 }
 .login:hover {
@@ -86,25 +86,25 @@ div#results {
 .body {
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .twosections {
   display: flex;
   width: 100%;
-  height: 100%;
+
   padding: 0px;
 }
 
 .sectionone {
   width: 100%;
-  height: 100%;
+
   display: flex;
 }
 
 .sectiontwo {
   width: 100%;
-  height: 100%;
+
   display: flex;
 }
 
@@ -112,7 +112,6 @@ div#results {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin-top: 50px;
   object-position: top;
 }
 
@@ -122,14 +121,12 @@ div#results {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
-  gap: 10px;
-  height: 100%;
-  font-size: 14px;
+  gap: 30px;
+  font-size: 13px;
 }
 
 .assets h1 {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 input {

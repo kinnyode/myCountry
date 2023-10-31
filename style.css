@@ -16,11 +16,11 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(adineue-PRO.ttf);
+  src: url(Cygre-Book-BF63eeebf814697.ttf);
 }
 @font-face {
   font-family: myfont2;
-  src: url(adineue-PRO.ttf);
+  src: url(Cygre-Book-BF63eeebf814697.ttf);
 }
 
 .navlinks a {
@@ -47,8 +47,8 @@ a {
 
 .login {
   display: flex;
-  width: 100px;
-  padding: 13px;
+  width: 90px;
+  padding: 12px;
   justify-content: center;
   border-radius: 300px;
   border: none;
@@ -56,7 +56,7 @@ a {
   background-color: #00145c;
   color: white;
   border: 0.2px solid rgb(0, 0, 0);
-  font-size: 17px;
+  font-size: 15px;
   cursor: pointer;
 }
 
@@ -64,7 +64,7 @@ a {
   display: flex;
   width: 100%;
   height: 100vh;
-  background-image: url(changes/188950169901385.64548c1433554.png);
+  background-image: url(3d-rendering-plaza-cisneros-medellin-colombia.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,10 +94,9 @@ a {
 }
 
 .assets h1 {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 160px;
   font-weight: 600;
-  font-family: myfont2;
 }
 
 .actionbtn {
@@ -118,15 +117,15 @@ a {
   border-radius: 300px;
   border: none;
   transition: 0.5s;
-  background-color: #000000;
-  color: white;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
   border: 0.2px solid rgb(255, 255, 255);
   font-size: 22px;
   cursor: pointer;
 }
 
 .register:hover {
-  border: 1px solid white;
+  border: 1px solid rgb(0, 0, 0);
   background-color: transparent;
   transition: 0.4s;
 }
@@ -414,7 +413,7 @@ input [type="text"]:focus {
 @media screen and (max-width: 912px) {
   @font-face {
     font-family: myfont;
-    src: url(adineue-pro-light-web-regular.otf);
+    src: url(Cygre-Book-BF63eeebf814697.ttf);
   }
   .assets h1 {
     font-size: 80px;

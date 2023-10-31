@@ -24,7 +24,7 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(adineue-PRO.ttf);
+  src: url(Cygre-Book-BF63eeebf814697.ttf);
 }
 
 .header {
@@ -33,7 +33,7 @@ a {
   color: rgb(0, 0, 0);
   width: 100%;
   position: fixed;
-  box-shadow: 0px 5px 15px rgba(74, 74, 74, 0.71);
+  box-shadow: 0px 5px 15px rgba(145, 145, 145, 0.612);
   display: flex;
   z-index: 999999999999999999;
 }
@@ -51,8 +51,8 @@ a {
 
 .login {
   display: flex;
-  width: 100px;
-  padding: 15px;
+  width: 90px;
+  padding: 10px;
   justify-content: center;
   border-radius: 300px;
   border: none;
@@ -60,7 +60,7 @@ a {
   background-color: #00145c;
   color: white;
   border: 0.2px solid rgb(0, 0, 0);
-  font-size: 17px;
+  font-size: 15px;
   cursor: pointer;
 }
 

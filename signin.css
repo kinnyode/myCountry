@@ -24,7 +24,7 @@ a {
 
 @font-face {
   font-family: myfont;
-  src: url(adineue-PRO.ttf);
+  src: url(Cygre-Book-BF63eeebf814697.ttf);
 }
 
 form#form_id {
@@ -37,8 +37,8 @@ form#form_id {
 }
 
 div#results {
-  color: red;
-  font-size: 20px;
+  color: rgb(239, 0, 0);
+  font-size: 15px;
 }
 
 .header {
@@ -62,8 +62,8 @@ div#results {
 }
 .login {
   display: flex;
-  width: 100px;
-  padding: 13px;
+  width: 90px;
+  padding: 10px;
   justify-content: center;
   border-radius: 300px;
   border: none;
@@ -71,7 +71,7 @@ div#results {
   background-color: #00145c;
   color: white;
   border: 0.2px solid rgb(0, 0, 0);
-  font-size: 17px;
+  font-size: 15px;
   cursor: pointer;
 }
 
@@ -107,7 +107,7 @@ div#results {
   height: 100%;
   object-fit: cover;
 
-  object-position: left;
+  object-position: center;
 }
 .assets {
   width: 100%;
@@ -116,11 +116,10 @@ div#results {
   flex-direction: column;
   align-items: center;
   margin-top: 70px;
-  gap: 10px;
-  height: 90%;
+  gap: 15px;
 }
 .assets h1 {
-  font-size: 55px;
+  font-size: 35px;
 }
 input {
   width: 100%;
@@ -143,13 +142,13 @@ select {
 .twoinputs {
   flex-direction: column;
   display: flex;
-  gap: 14px;
+  gap: 10px;
   padding: 10px;
-  width: 70%;
+  width: 80%;
 }
 .twoinputs p {
   font-weight: 100;
-  font-size: 18px;
+  font-size: 15px;
 }
 .checkbox {
   display: flex;
@@ -163,7 +162,7 @@ select {
 }
 .signup {
   display: flex;
-  width: 120px;
+  width: 100px;
   padding: 13px;
   justify-content: center;
   border-radius: 300px;
@@ -172,7 +171,7 @@ select {
   background-color: #000000;
   color: white;
   border: 0.2px solid rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: 15px;
   cursor: pointer;
 }
 .signup:hover {
@@ -191,7 +190,7 @@ select {
   color: black;
   font-weight: 400;
   line-height: 24px;
-  font-size: 18px;
+  font-size: 15px;
 
   letter-spacing: -0.01em;
   margin-top: 15px;
